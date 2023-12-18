@@ -1,0 +1,69 @@
+.home{
+  max-width: 500px;
+  background: linear-gradient(0deg, rgb(211, 168, 89) 0%, rgb(211, 168, 89) 100%);
+  border-radius: 40px;
+  padding: 25px 35px;
+  border: 5px solid purple;
+  box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 30px 30px -20px;
+  margin: 20px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #2f7972;
+  overflow-y: auto;
+  max-height: 500px;
+  
+}
+.home h2{
+  margin-bottom: 20px; 
+  text-align: center;
+  color: purple;
+}
+.create_form input{
+  width: 300px;
+  padding: 10px;
+  border-bottom: 2px solid;
+  outline: none;
+}
+.create_form button{
+  padding: 10px;
+  background-color: purple;
+  color: #ecf0f1;
+  cursor: pointer;
+}
+.task{
+  display: flex;
+  align-items: center;
+  width: 345px;
+  justify-content: space-between;
+  background-color: #2f7972;
+  color: #ecf0f1;
+  height: 35px;
+  margin-top: 2px;
+  border: 1px solid purple; 
+  padding: 3px;
+  border-radius: 5px;
+  }
+
+.checkbox{
+  display: flex;
+  align-items: center;
+}
+.line_through{
+  text-decoration: line-through;
+}
+.checkox .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+.task div span{
+  margin: 0px 5px 0px 5px;
+}
+.task div .icon{
+  cursor: pointer;
+}
+
+
+
+
+
