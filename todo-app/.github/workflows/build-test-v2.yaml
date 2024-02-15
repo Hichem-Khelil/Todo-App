@@ -1,1 +1,28 @@
+name: CI/CD Workflow
 
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    #- name: Navigate to todo-app directory
+     # run: cd ../todo-app
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Install Dependencies
+      run: npm install  # installer toutes les dépendances définies dans le fichier package.json du projet
+
+    - name: Run Tests
+      run: npm test
