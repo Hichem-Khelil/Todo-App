@@ -16,9 +16,6 @@ jobs:
     - name: list files
       run: ls -l
 
-    - name: Navigate to todo-app directory
-      run: cd ../todo-app
-
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
