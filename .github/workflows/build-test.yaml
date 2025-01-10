@@ -18,8 +18,7 @@ jobs:
 
     - name: Setup Node.js
       uses: actions/setup-node@v2
-      with:
-        node-version: '14'
+
 
     - name: Install Dependencies
       run: npm install  # installer toutes les dépendances définies dans le fichier package.json du projet
