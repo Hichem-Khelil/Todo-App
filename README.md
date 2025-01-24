@@ -38,13 +38,14 @@ Le projet utilise Kubernetes pour orchestrer les conteneurs :
 
   - Les fichiers YAML dans le dossier **./kubernetes** définissent les déploiements et services.
   - L'application peut être déployée localement sur Minikube en appliquant les fichiers de configuration kubernetes:
-      kubectl apply -f kubernetes/backend-deployment.yaml
-      kubectl apply -f kubernetes/frontend-deployment.yaml
-      kubectl apply -f kubernetes/backend-service.yaml
-      kubectl apply -f kubernetes/frontend-service.yaml
+     - kubectl apply -f kubernetes/backend-deployment.yaml
+     - kubectl apply -f kubernetes/frontend-deployment.yaml
+     - kubectl apply -f kubernetes/backend-service.yaml
+     - kubectl apply -f kubernetes/frontend-service.yaml
 
 ### 3. **Visualisation des ressources Kubernetes**
 Il faut appliquer les commandes suivantes:
-      kubectl get pods
-      kubectl get deployments
-      kubectl get service
+
+     - kubectl get pods
+     - kubectl get deployments
+     - kubectl get service
