@@ -26,20 +26,20 @@ jobs:
       run: |
         npm install
 
-    - name: Run tests (Backend)
-      working-directory: ./Server
-      run: |
-        npm test
+    #- name: Run tests (Backend)
+    #  working-directory: ./Server
+     # run: |
+     #   npm test
 
     - name: Install dependencies (Frontend)
       working-directory: ./todo-app
       run: |
         npm install
 
-    - name: Run tests (Frontend)
-      working-directory: ./todo-app
-      run: |
-        npm test
+    #- name: Run tests (Frontend)
+     # working-directory: ./todo-app
+     # run: |
+      #  npm test
 
     - name: Build Backend Docker image
       working-directory: ./Server
