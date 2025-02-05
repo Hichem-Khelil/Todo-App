@@ -50,3 +50,6 @@ Il faut appliquer les commandes suivantes:
      - kubectl get pods
      - kubectl get deployments
      - kubectl get services
+
+
+# test commit
