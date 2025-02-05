@@ -50,8 +50,11 @@ Il faut appliquer les commandes suivantes:
      - kubectl get pods
      - kubectl get deployments
      - kubectl get services
+<<<<<<< HEAD
 
 
 # test commit
 
 # test commit 2
+=======
+>>>>>>> parent of 3291ecc (test)
